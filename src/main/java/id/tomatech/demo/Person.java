@@ -9,6 +9,7 @@ public class Person {
 	
 	private String gender;
 
+	public Person() {}
 	public Person(Long id, String name, String email, String gender) {
 		super();
 		this.id = id;
